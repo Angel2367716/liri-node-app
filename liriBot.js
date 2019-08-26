@@ -3,8 +3,6 @@ require('dotenv').config();
 const spotifyAPI = require("node-spotify-api");
 const request = require('request');
 
-// const argument = process.argv;
-
 /////////////////////////////////////////////////////     MOVIE SEARCH SECTION     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 const apikey = process.env.OMDB_APIKEY;
 
@@ -26,32 +24,6 @@ const getMovie = function(filmName) {
     }
   });
 }
-
-// let movie = "";
-// for (let i = 2; i < argument.length; i++) {
-//   if (i > 2 && i < argument.length) {
-//     movie = movie + "+" + argument[i];
-//   }
-//   else {
-//     movie += argument[i];
-//   }
-// }
-// const queryUrl = "http://www.omdbapi.com/?t=" + movie + "&y=&plot=short&apikey=" + apikey;
-// console.log(queryUrl);
-// axios.get(queryUrl).then(
-//   function(response) {
-//     let moVie = response.data;
-    // console.log("Title: " + jsonData.Title);
-    // console.log("Release Year: " + jsonData.Year);
-    // console.log("Rated: " + jsonData.Rated);
-    // console.log("Country: " + jsonData.Country);
-    // console.log("Language: " + jsonData.Language);
-    // console.log("Plot: " + jsonData.Plot);
-    // console.log("Actors: " + jsonData.Actors);
-    // console.log("IMDB Rating: " + jsonData.imdbRating);
-  // }
-// );
-
 
 /////////////////////////////////////////////////////     SPOTIFY SONG SECTION     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
 
