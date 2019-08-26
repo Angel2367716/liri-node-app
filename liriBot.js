@@ -1,6 +1,5 @@
 const axios = require("axios");
 require('dotenv').config();
-// console.log(process.env);
 
 const argument = process.argv;
 
