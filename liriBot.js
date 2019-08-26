@@ -1,8 +1,10 @@
+//Requirements
 const axios = require("axios");
 require('dotenv').config();
 
 const argument = process.argv;
 
+//Movie section
 let movie = "";
 
 
@@ -34,13 +36,3 @@ axios.get(queryUrl).then(
     console.log("IMDB Rating: " + response.data.imdbRating);
   }
 );
-
-//Spotify 
-// const require = ("node-spotify-api");
-
-// const spotify = new Spofity ({
-//     id: "spotify api id",
-//     secret: "spotify client secret"
-// });
-
-// spotify.request("")
