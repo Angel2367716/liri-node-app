@@ -1,9 +1,9 @@
 # LiriBot <h1> 
 
-##LIRI (Language Interpretation and Recognition Interface)
+## LIRI (Language Interpretation and Recognition Interface)
   This application takes in a command from the user and returns data on the console. Liribot can look for songs on Spotify, and movies on OMDB. 
 
-##Technologies Used:
+## Technologies Used:
 * Node.JS
 * [DotEnv](https://www.npmjs.com/package/dotenv)
 * [Node-Spotify-API](https://www.npmjs.com/package/node-spotify-api)
