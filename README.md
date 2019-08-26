@@ -1,4 +1,4 @@
-# LiriBot <h1> 
+# LiriBot
 
 ## LIRI (Language Interpretation and Recognition Interface)
   This application takes in a command from the user and returns data on the console. Liribot can look for songs on Spotify, and movies on OMDB. 
