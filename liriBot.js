@@ -7,7 +7,7 @@ const request = require('request');
 const apikey = process.env.OMDB_APIKEY;
 
 const getMovie = function (filmName) {
-  request("http://www.omdbapi.com/?t=" + filmName + "&y=&plot=short&apikey=" + apikey, function (error, response, body) {
+  request("http://www.omdbapi.com/?t=" + filmName + "&y=&plot=short&r=json&apikey=" + apikey, function (error, response, body) {
     if (!error && response.statusCode == 200) {
       const jsonData = JSON.parse(body);
       console.log("Title: " + jsonData.Title);
