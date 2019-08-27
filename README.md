@@ -11,7 +11,7 @@
 * OMBD API
 
 ## Using LiriBot to search for OMDB movies<h3>
- 1. On the console run the LiriBot file as a node command and then type in get-movie followed by the movie you would like to search for (in this case the movie is "the matrix")
+ 1. On the console run the LiriBot file as a node command and then type in get-movie followed by the movie you would like to search for inside quotation marks (in this case the movie is "the lord of the rings"). Note if the use does not type the movie name inside quotation marks the console command will not work properly.
   ![](images/movieSearch1.PNG)
   
  2. After hitting enter the console log will dsiplay information on the movie searched
