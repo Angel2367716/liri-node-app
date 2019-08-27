@@ -4,10 +4,11 @@ const spotifyAPI = require("node-spotify-api");
 const request = require('request');
 
 /////////////////////////////////////////////////////     MOVIE SEARCH SECTION     /////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////////
-const apikey = process.env.OMDB_APIKEY;
+// const apikey = process.env.OMDB_APIKEY;
+
 
 const getMovie = function (filmName) {
-  request("http://www.omdbapi.com/?t=" + filmName + "&y=&plot=short&r=json&apikey=" + apikey, function (error, response, body) {
+  request("http://www.omdbapi.com/?t=" + filmName + "&y=&plot=short&r=json&apikey=4218b679", function (error, response, body) {
     if (!error && response.statusCode == 200) {
       const jsonData = JSON.parse(body);
       console.log("Title: " + jsonData.Title);
